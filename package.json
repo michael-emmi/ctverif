@@ -1,0 +1,35 @@
+{
+  "name": "ctverif",
+  "version": "1.0.0",
+  "description": "A tool for verifying constant-time code.",
+  "main": "index.js",
+  "bin": {
+    "ctverif": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-emmi/ctverif.git"
+  },
+  "keywords": [
+    "verification",
+    "constant",
+    "time"
+  ],
+  "author": "Michael Emmi <michael.emmi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michael-emmi/ctverif/issues"
+  },
+  "homepage": "https://github.com/michael-emmi/ctverif#readme",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
