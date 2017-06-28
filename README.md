@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/michael-emmi/ctverif.svg?branch=master)](https://travis-ci.org/michael-emmi/ctverif)
+[![npm version](https://badge.fury.io/js/ctverif.svg)](https://badge.fury.io/js/ctverif)
+
 # ctverif
 
 A tool for verifying constant-time code.
